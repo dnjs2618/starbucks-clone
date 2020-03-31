@@ -1,0 +1,124 @@
+.ban01 {
+  background-color: #fce6e8;
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 80px;
+  position: relative;
+  width: 100%;
+}
+
+.ban01__text .ban01__text-line {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #bf536b;
+  font-size: 45px;
+  font-weight: 400;
+  margin-top: 65px;
+}
+
+.ban01__text-line .ban01__hirite {
+  font-size: 60px;
+  font-weight: 800;
+  color: #bf536b;
+}
+
+.ban01__column .ban01__text-box {
+  border: 2px solid #d35b44;
+  margin-top: 50px;
+  width: 50%;
+  padding: 20px;
+  text-align: center;
+}
+
+.ban01__text-box a {
+  color: #d35b44;
+}
+.ban01__column .ban01__img {
+  position: relative;
+}
+
+.ban01__img .ban01__set01 {
+  position: absolute;
+  top: 0px;
+  right: -60px;
+}
+
+.ban01__img .ban01__set02 {
+  position: absolute;
+  top: 114px;
+  right: 200px;
+}
+
+.ban01__img .ban01__set03 {
+  position: absolute;
+  top: 45px;
+  left: -60px;
+}
+
+@media screen and (max-width: 900px) {
+  .ban01 {
+    background-color: #fce6e8;
+    display: flex;
+    flex-direction: column;
+    aling-items: center;
+    padding-bottom: 80px;
+    position: relative;
+    width: 100%;
+  }
+
+  .ban01__text .ban01__text-line {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #bf536b;
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: 65px;
+  }
+
+  .ban01__text-line .ban01__hirite {
+    font-size: 60px;
+    font-weight: 800;
+    color: #bf536b;
+  }
+
+  .ban01__column .ban01__text-box {
+    position: absolute;
+    bottom: 30px;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    border: 2px solid #d35b44;
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .ban01__text-box a {
+    color: #d35b44;
+  }
+  .ban01__column .ban01__img {
+    position: relative;
+    border: 1px solid black;
+    height: 1030px;
+  }
+
+  .ban01__img .ban01__set01 {
+    position: absolute;
+    top: 0px;
+    right: 5%;
+  }
+
+  .ban01__img .ban01__set02 {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+  }
+
+  .ban01__img .ban01__set03 {
+    position: absolute;
+    top: 40%;
+    left: 20%;
+  }
+}
