@@ -1,0 +1,250 @@
+.ban02 {
+  position: relative;
+}
+
+.ban02 .ban02__wrap1 {
+  background-color: #272727;
+  position: absolute;
+  width: 20%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.ban02 .ban02__wrap2 {
+  background-color: #d5c798;
+  position: absolute;
+  width: 80%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.ban02 .ban02__main {
+  margin-right: 0;
+}
+
+.ban02 .ban02__main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("../images/mobileban03bg.jpg");
+}
+
+.ban02__column .ban02__image img {
+  display: none;
+}
+.ban02__column .ban02__image {
+  background: url("../images/mobilereward-ban03.png") no-repeat;
+  width: 200px;
+  height: 190px;
+}
+
+.top-column__image img {
+  display: none;
+}
+
+.ban02__top-column .top-column__image {
+  background: url("../images/mobile_reward_txtban03.png") no-repeat;
+  width: 450px;
+  height: 200px;
+}
+
+.ban02__top-column .top-column__button {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.top-column__button .top-column__signup {
+  background-color: #222222;
+  padding: 10px 30px;
+  color: white;
+  font-weight: 600;
+  margin-right: 40px;
+  transition: all 0.6s ease-in-out;
+}
+
+.top-column__button .top-column__signin {
+  background-color: #d5c798;
+  padding: 10px 34px;
+  border: 2px solid #222222;
+  transition: all 0.6s ease-in-out;
+}
+
+.top-column__button .top-column__signup:hover {
+  background-color: #d5c798;
+  color: black;
+  border: 2px solid #222222;
+  padding: 10px 30px;
+}
+
+.top-column__button .top-column__signin:hover {
+  background-color: #222222;
+  color: #fff;
+  font-weight: 600;
+}
+
+.ban02 .ban02__bottom-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bottom-column__image img {
+  display: none;
+}
+
+.ban02__bottom-column .bottom-column__image {
+  background: url("../images/mobile_egift_txtban03.png") no-repeat;
+  width: 450px;
+  height: 180px;
+}
+
+.bottom-column__button .bottom-column__giftcard {
+  padding: 10px 60px;
+  background-color: #222222;
+  color: #fff;
+  font-weight: 600;
+  margin-bottom: 30px;
+  transition: all 0.6s ease-in-out;
+}
+
+.bottom-column__button .bottom-column__giftcard:hover {
+  background-color: #d5c798;
+  color: #222222;
+  border: 1px solid #222222;
+  padding: 9px 59px;
+}
+
+@media screen and (min-width: 900px) {
+  .ban02 {
+    position: relative;
+  }
+
+  .ban02 .ban02__wrap1 {
+    background-color: #272727;
+    position: absolute;
+    width: 20%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+  }
+
+  .ban02 .ban02__wrap2 {
+    background-color: #d5c798;
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    z-index: -1;
+  }
+
+  .ban02 .ban02__main {
+    margin-right: 0;
+  }
+
+  .ban02 .ban02__main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    /*background-image: url("../images/mobileban03bg.jpg");*/
+  }
+
+  .ban02__column .ban02__image img {
+    display: none;
+  }
+  .ban02__column .ban02__image {
+    position: absolute;
+    top: 0;
+    background: url("../images/star_bg.png") no-repeat;
+    background-size: 100% 100%;
+    width: 300px;
+    height: 355px;
+  }
+
+  .top-column__image img {
+    display: none;
+  }
+
+  .ban02__top-column .top-column__image {
+    background: url("../images/ban02first.png") no-repeat;
+    margin-top: 30px;
+    width: 450px;
+    height: 100px;
+    margin-left: 30px;
+  }
+
+  .ban02__top-column .top-column__button {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .top-column__button .top-column__signup {
+    background-color: #222222;
+    padding: 10px 30px;
+    color: white;
+    font-weight: 600;
+    margin-right: 40px;
+    transition: all 0.6s ease-in-out;
+  }
+
+  .top-column__button .top-column__signin {
+    background-color: #d5c798;
+    padding: 10px 34px;
+    border: 2px solid #222222;
+    transition: all 0.6s ease-in-out;
+  }
+
+  .top-column__button .top-column__signup:hover {
+    background-color: #d5c798;
+    color: black;
+    border: 2px solid #222222;
+    padding: 10px 30px;
+  }
+
+  .top-column__button .top-column__signin:hover {
+    background-color: #222222;
+    color: #fff;
+    font-weight: 600;
+  }
+
+  .ban02 .ban02__bottom-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .bottom-column__image img {
+    display: none;
+  }
+
+  .ban02__bottom-column .bottom-column__image {
+    background: url("../images/ban02second.png") no-repeat;
+    margin-left: 45px;
+    width: 450px;
+    height: 100px;
+  }
+
+  .bottom-column__button .bottom-column__giftcard {
+    padding: 10px 60px;
+    background-color: #222222;
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 30px;
+    transition: all 0.6s ease-in-out;
+  }
+
+  .bottom-column__button .bottom-column__giftcard:hover {
+    background-color: #d5c798;
+    color: #222222;
+    border: 1px solid #222222;
+    padding: 9px 59px;
+  }
+}

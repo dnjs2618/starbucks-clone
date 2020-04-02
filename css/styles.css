@@ -3,6 +3,8 @@
 @import "footer.css";
 @import "main.css";
 @import "ban01.css";
+@import "ban02.css";
+@import "notice.css";
 
 * {
   box-sizing: border-box;
