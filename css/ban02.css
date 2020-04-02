@@ -48,7 +48,8 @@
 
 .ban02__top-column .top-column__image {
   background: url("../images/mobile_reward_txtban03.png") no-repeat;
-  width: 450px;
+  background-size: 90% 90%;
+  width: 374px;
   height: 200px;
 }
 
@@ -99,7 +100,8 @@
 
 .ban02__bottom-column .bottom-column__image {
   background: url("../images/mobile_egift_txtban03.png") no-repeat;
-  width: 450px;
+  background-size: 90% 90%;
+  width: 374px;
   height: 180px;
 }
 
@@ -117,6 +119,10 @@
   color: #222222;
   border: 1px solid #222222;
   padding: 9px 59px;
+}
+
+.ban02 .ban02__column {
+  width: 375px;
 }
 
 @media screen and (min-width: 900px) {
