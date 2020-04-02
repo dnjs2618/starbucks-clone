@@ -1,3 +1,6 @@
+.header .header__tablet {
+  display: none;
+}
 .header {
   background-color: #f6f5ef;
   position: fixed;
@@ -53,4 +56,26 @@
   position: absolute;
   top: -40px;
   right: 0;
+}
+@media screen and (max-width: 900px) {
+  .header .header__tablet {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f6f5ef;
+    position: fixed;
+    z-index: 4;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+
+  .tablet__column i {
+    font-size: 2rem;
+    margin-right: 22px;
+  }
+  .tablet__column img {
+    width: 100px;
+    height: 100px;
+  }
 }

@@ -38,6 +38,7 @@
 }
 .ban02__column .ban02__image {
   background: url("../images/mobilereward-ban03.png") no-repeat;
+  margin-left: 60px;
   width: 200px;
   height: 190px;
 }
